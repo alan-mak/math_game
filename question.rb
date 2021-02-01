@@ -14,7 +14,7 @@ class Question
       puts "Correct answer!"
       true
     else
-      puts "LOL you stupid?"
+      puts "Wrong Answer should be #{@ans}?"
       false
     end  
   end
